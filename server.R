@@ -1,7 +1,7 @@
 library(shiny)
 library(ggplot2)
 library(rsconnect)
-install.packages("devtools")  # Ensure version >= 1.4
+install.packages("devtools")  
 library(devtools)
 
 function(input, output) {
